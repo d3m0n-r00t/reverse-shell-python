@@ -3,6 +3,7 @@ A basic python reverse shell using sockets.
 Usage:
 
 python3 host.py
+
 python3 upload.py (In the victim machine)
 
 *******************************************************	
