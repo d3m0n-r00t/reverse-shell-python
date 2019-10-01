@@ -15,7 +15,7 @@ echo "${yellow}[2]${nocolor} host.py"
 read  -p ">> " userinput
 		case $userinput in
     		1 ) read  -p "${yellow}[^]${nocolor} Enter the Host ip : " newinput
-				python upload.py $newinput ;;
-				2 ) python host.py;;
+				python3 upload.py $newinput ;;
+				2 ) python3 host.py;;
 				*) echo "${bold_yellow}[*]${nocolor}Input error."
 				exit;;
